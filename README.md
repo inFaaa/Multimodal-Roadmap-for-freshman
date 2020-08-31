@@ -1,7 +1,8 @@
 # Multimodal-Roadmap-for-freshman
+
  本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。
 
- 前2个月精读20篇+实现，然后把深度学习基础过一遍，接下来2个月把领域新的东西泛读+精读过一遍然后做一些别人的idea（帮忙跑实验，如果能在企业研究岗最好），最后两个月开始想一些独立的idea去面向会议进行投稿研究，到投出第一篇为止就算度过freshman阶段。
+ 前2个月精读20篇+实现，然后把深度学习基础过一遍，接下来2个月把领域新的东西泛读+精读过一遍然后做一些别人的idea（帮忙跑实验or洗数据or对方向进行调研 如果能在企业研究岗最好），最后两个月开始想一些独立的idea去面向会议进行投稿研究，到投出第一篇为止就算度过freshman阶段。
 
 #### 良好的科研习惯
 
@@ -9,17 +10,35 @@
 - 论文分类整理：按照会议或方向，分类整理论文，方便高效查找论文。
 - 保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
 
-#### 领域可以follow人的工作：
+#### 领域可以follow人的工作
 
-吴琦老师，何晓冬老师，张含望老师，马林老师，段楠老师，Christopher D. Manning，Jiasen Lu，Paul Pu Liang
+吴琦老师，何晓冬老师，张含望老师，马林老师，段楠老师，Christopher D. Manning，Jiasen Lu，Paul Pu Liang，可以关注VALSE公众号，参加各种人工智能大会(智源大会，院士峰会等)
+
+#### 公众号
+
+- 机器之心
+- Paperweekly
+- 极市平台
+- AI科技评论
+- 新智元
+- 专知
+- Arxiv每日学术速递
+- 量子位
+- CVer
+
+#### 主要关注的顶会
+
+CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
+
+重要程度：oral论文（带code）> poster论文（带code）> oral论文（无code）>  poster（无code）> workshop
+
+适当阅读science，nature，pami和ijcv的文章，扩大视野
 
 #### 常用网站&必读资料
 
-欢迎关注我的[收藏夹](https://www.zhihu.com/collection/361301272?page=1)!
-
-- [multimodal论文](https://github.com/pliang279/awesome-multimodal-ml)
-- [image captioning论文](https://github.com/zhjohnchan/awesome-image-captioning#2019)
-- [visual grounding论文](https://github.com/qy-feng/awesome-visual-grounding)
+- [Multimodal论文](https://github.com/pliang279/awesome-multimodal-ml)
+- [Image Captioning论文](https://github.com/zhjohnchan/awesome-image-captioning#2019)
+- [Visual Grounding论文](https://github.com/qy-feng/awesome-visual-grounding)
 - [一文纵览 Vision-and-Language 领域最新研究与进展](https://www.leiphone.com/news/201905/nJPT0qyibjtM09wE.html)
 - [从 Vision 到 Language 再到 Action，万字漫谈三年跨域信息融合研究](https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247496394&idx=1&sn=22197341f2a5104b70ec9a6acee3d360&source=41#wechat_redirect)
 - [Arxiv](http://www.arxiv-sanity.com/top)
@@ -39,10 +58,11 @@
 
 - [调参](https://www.zhihu.com/question/41631631/answer/1129785528)
 - Numpy
+- Pandas
 - [新手教程](https://www.zhihu.com/question/55720139/answer/147148105)
 - [Pytorch常用代码段](https://zhuanlan.zhihu.com/p/104019160)
 
-## 单步调试+精读(About 2 months)
+## 单步调试（每篇论文都有code）+精读(About 2 months)
 
 5-20篇论文代表基本理解了相关主题，或许对于进一步理解技术实现足够了。
 
@@ -65,15 +85,16 @@
 - 西瓜书《机器学习》
 - 花书《深度学习》
 - 《统计机器学习》
-- 斯坦福CS231n
-- 斯坦福CS224n
+- 《The book of why》探讨因果
+- 斯坦福CS231n 视觉部分
+- 斯坦福CS224n transform/generation部分
 - [Tutorial on Multimodal Machine Learning](https://www.cs.cmu.edu/~morency/MMML-Tutorial-ACL2017.pdf)
 
 #### Week 1
 
 ​	《Attention is all you need》
 
-​	《Show and Tell: A Neural Image Caption Generator》
+​	《[Multimodal intelligence: Representation learning, information fusion, and applications](javascript:void(0))》综述
 
 #### Week 2
 
@@ -95,13 +116,15 @@
 
 ​	《[Spice: Semantic propositional image caption evaluation](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_24)》
 
+​	《Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning》
+
 #### Week 5
 
 ​	《[Unsupervised Image Captioning](https://arxiv.org/abs/1811.10787)》
 
 ​	《[Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning](http://www.aclweb.org/anthology/P18-1238)》
 
-​	《[Multimodal intelligence: Representation learning, information fusion, and applications](javascript:void(0))》综述
+​	《Show and Tell: A Neural Image Caption Generator》
 
 #### Week 6
 
@@ -127,10 +150,41 @@
 
 ​	《VL-BERT: Pre-training of Generic Visual-Linguistic Representations》
 
+#### Week 9
+
+​	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
+
 ​	![发展历程](/Users/vhjf/Multimodal-Roadmap-for-freshman/发展历程.jpg)
 
-## 实验&泛读& trick（About 2 months)
+## 实验坑&工具&trick（About 2 months)
 
 #### Linux学习
 
-未完待续
+#### 服务器学习
+
+#### Pytorch
+
+#### Tensorflow
+
+#### 实验trick
+
+#### 实验遇到的坑
+
+## 未来的方向(About 2 months)
+
+2020年：self-supervised learning+multimodal
+
+​				Unsupervised/semi-supervised+multimocal
+
+​				可控制的image caption/visual grounding
+
+​				visual reasoning
+
+​				symbolicism+multimodal
+
+​				visual grounding+传统CV/NLP任务
+
+​				（仅供参考)
+
+​				
+
