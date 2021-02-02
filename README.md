@@ -164,6 +164,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 #### 工具总结
    [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
+   
    [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):针对google drive,可断点下载
 #### Pytorch
 
