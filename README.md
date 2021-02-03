@@ -175,6 +175,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - [视觉的目的是什么？](https://www.bilibili.com/video/BV14V411B7av?t=1)
 
 - 怎么去评估一篇论文能否被顶会接受？(见峰林大哥PPT)
+![avatar](Idea评判.png)
 
   
 
