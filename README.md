@@ -1,6 +1,36 @@
 # Multimodal-Roadmap-for-freshman
 
-[toc]
+- [Multimodal-Roadmap-for-freshman](#multimodal-roadmap-for-freshman)
+  * [工具箱](#---)
+      - [领域可以follow人的工作](#----follow----)
+      - [公众号](#---)
+      - [相关顶会](#----)
+      - [常用网站&工具](#-------)
+      - [代码训练](#----)
+  * [入门pipeline](#--pipeline)
+      - [Step 1:深度学习基础(2 months)](#step-1--------2-months-)
+      - [Step 2:Week 1(2 mouths)](#step-2-week-1-2-mouths-)
+      - [Week 2](#week-2)
+      - [Week 3](#week-3)
+      - [Week 4](#week-4)
+      - [Week 5](#week-5)
+      - [Week 6](#week-6)
+      - [Week 7](#week-7)
+      - [Week 8](#week-8)
+      - [Week 9](#week-9)
+      - [Step 3:Idea(2 months)](#step-3-idea-2-months-)
+  * [科研素质培养](#------)
+  * [追新论文&热点的渠道](#----------)
+  * [问题思考训练（评估问题的价值）](#---------------)
+  * [神经网络模型绘画](#--------)
+  * [可视化](#---)
+  * [组会PPT&学术汇报制作经验](#--ppt---------)
+  * [Rebuttal](#rebuttal)
+  * [靠谱的多模态任务codebase](#--------codebase)
+  * [多模态热点方向（按年度）](#------------)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。
 
