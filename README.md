@@ -4,6 +4,8 @@
 
  前2个月精读20篇+实现，然后把深度学习基础过一遍，接下来2个月把领域新的东西泛读+精读过一遍然后做一些别人的idea（帮忙跑实验or洗数据or对方向进行调研 如果能在企业研究岗最好），最后两个月开始想一些独立的idea去面向会议进行投稿研究，到投出第一篇为止就算度过freshman阶段。
 
+ 做研究的主要思路分为：1.先收集研究领域最近2-3年文献进行阅读&复现靠谱好用的codebase 2.通过阅读把自己想做的问题定义好 3.根据问题去设计模块，先在该任务上达到SOTA性能（这是个漫长的过程，要不断尝试idea） 4.如果能跑到好的性能，说明是可以发表的工作，这时候要和人讨论，设计实验过程（如何论证你的问题），补充中间结果，这个阶段可以尝试写Intro+related work。 5.跑各种消融结果+可视化中间结果+参数分析，尝试刷更高性能，写论文改论文。6.一定要在会议截至之前2周把论文写出来，基本太赶的论文最后都是被拒的。
+
 #### 良好的科研习惯
 
 - 每天早上刷刷arxiv：第一时间看到各个领域最新的文章，获取最新的科研进展。
@@ -34,25 +36,129 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 适当阅读science，nature，pami和ijcv的文章，扩大视野
 
-#### 常用网站&必读资料
+时间线:
+
+**ICML (CCF-A)**: International Conference on Machine Learning
+
+  截稿日期：约每年1月份下旬
+
+  审稿周期：约3个半月 (即5月上旬出结果)
+
+
+
+**NeurIPS (CCF-A)**: Conference on Neural Information Processing Systems
+
+  截稿日期：约每年5月份下旬
+
+  审稿周期：约3个半月 (即9月上旬出结果)
+
+
+
+**ICLR (无评级)**: International Conference on Learning Representations
+
+  截稿日期：约每年9月份下旬
+
+  审稿周期：约2个月 (即11月下旬出结果)
+
+
+
+**NAACL (CCF-C)**: Annual Conference of the *North American Chapter* of the Association for Computational Linguistics
+
+  截稿日期：约每年12月份
+
+  审稿周期：约2个半月 (即2月下旬出结果)
+
+
+
+**ACL (CCF-A)**: Annual Meeting of the Association for Computational Linguistics
+
+  截稿日期：约每年3月份上旬
+
+  审稿周期：约2个半月 (即5月中旬出结果)
+
+
+
+**EMNLP (CCF-B)**: Conference on Empirical Methods in Natural Language Processing
+
+  截稿日期：约每年5月份下旬
+
+  审稿周期：约3个月 (即8月下旬出结果)
+
+
+
+**CVPR (CCF-A)**: Conference on Computer Vision and Pattern Recognition
+
+  截稿日期：约每年11月份中旬
+
+  审稿周期：约3个半月 (即2月下旬出结果)
+
+
+
+**ICCV (CCF-A)**: International Conference on Computer Vision 
+
+  截稿日期：每两年开一次(奇数年)，举办年约每年3月份中旬
+
+  审稿周期：约4个半月 (即7月下旬出结果)
+
+
+
+**ECCV (CCF-B)**: European Conference on Computer Vision 
+
+  截稿日期：每两年开一次(偶数年)，约每年3月份下旬
+
+  审稿周期：约3个半月 (即7月上旬出结果)
+
+
+
+**ACMMM（CCF-A）**：
+
+截稿日期：每年4月上旬
+
+#### 常用网站&工具
 
 - [Multimodal论文](https://github.com/pliang279/awesome-multimodal-ml)
+
 - [Image Captioning论文](https://github.com/zhjohnchan/awesome-image-captioning#2019)
+
 - [Visual Grounding论文](https://github.com/qy-feng/awesome-visual-grounding)
+
 - [一文纵览 Vision-and-Language 领域最新研究与进展](https://www.leiphone.com/news/201905/nJPT0qyibjtM09wE.html)
+
 - [从 Vision 到 Language 再到 Action，万字漫谈三年跨域信息融合研究](https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247496394&idx=1&sn=22197341f2a5104b70ec9a6acee3d360&source=41#wechat_redirect)
+
 - [Arxiv](http://www.arxiv-sanity.com/top)
+
 - [Paper with code](https://paperswithcode.com/)
+
 - [AIdeadline](https://aideadlin.es/?sub=)
+
 - [Overleaf](https://www.overleaf.com/project)
+
 - Latex
+
 - [张士峰学长分享](https://www.shenlanxueyuan.com/open/course/59)
+
 - [CVPR Rebuttal](https://zhuanlan.zhihu.com/p/156994751)
+
 - [画图：PPT，画神经网络图](https://www.zhihu.com/collection/361301272)
+
 - [PPT制作（用于组会汇报）](https://zhuanlan.zhihu.com/p/148896017)
+
 - [Grammerly](https://www.grammarly.com/)
+
 - [Linggle](https://linggle.com/)
+
 - [提高科研论文写作效率的小工具](https://zhuanlan.zhihu.com/p/34838403)
+
+-  [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
+
+-  [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):针对google drive,可断点下载
+
+- ML-visuals：用于PPT制作（里面有别人画好的东西）https://github.com/dair-ai/ml-visuals
+
+- 服务器-电脑传输数据：Windows：Winscp, MAC:Transmit
+
+  
 
 #### 代码训练
 
@@ -61,6 +167,16 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - Pandas
 - [新手教程](https://www.zhihu.com/question/55720139/answer/147148105)
 - [Pytorch常用代码段](https://zhuanlan.zhihu.com/p/104019160)
+
+
+
+#### 思考训练
+
+- [视觉的目的是什么？](https://www.bilibili.com/video/BV14V411B7av?t=1)
+
+- 怎么去评估一篇论文能否被顶会接受？(见峰林大哥PPT)
+
+  
 
 ## 单步调试（每篇论文都有code）+精读(About 2 months)
 
@@ -86,109 +202,122 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - 花书《深度学习》
 - 《统计机器学习》
 - 《The book of why》探讨因果
+- 林轩田-《机器学习基石》
 - 斯坦福CS231n 视觉部分
 - 斯坦福CS224n transform/generation部分
 - [Tutorial on Multimodal Machine Learning](https://www.cs.cmu.edu/~morency/MMML-Tutorial-ACL2017.pdf)
 
 #### Week 1
 
-​	《Attention is all you need》
-
-​	《[Multimodal intelligence: Representation learning, information fusion, and applications](javascript:void(0))》综述
+	《Attention is all you need》
+	
+	《[Multimodal intelligence: Representation learning, information fusion, and applications](javascript:void(0))》综述
 
 #### Week 2
 
-​	《Self-critical Sequence Training for Image Captioning》
-
-​	《Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering》
+	《Self-critical Sequence Training for Image Captioning》
+	
+	《Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering》
 
 #### Week 3
 
-​	《SCA-CNN-Spatial and Channel-wise Attention in Convolutional Networks》
-
-​	《Show, Attend and Tell--Neural Image CaptionGeneration with Visual Attention》
-
-​	[BLEU、Meteor、ROUGE、CIDEr 和 SPICE](https://www.jianshu.com/p/60deff0f64e1)
+	《SCA-CNN-Spatial and Channel-wise Attention in Convolutional Networks》
+	
+	《Show, Attend and Tell--Neural Image CaptionGeneration with Visual Attention》
+	
+	[BLEU、Meteor、ROUGE、CIDEr 和 SPICE](https://www.jianshu.com/p/60deff0f64e1)
 
 #### Week 4
 
-​	《Show, Control and Tell--A Framework for Generating Controllable and Grounded Captions》
-
-​	《[Spice: Semantic propositional image caption evaluation](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_24)》
-
-​	《Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning》
+	《Show, Control and Tell--A Framework for Generating Controllable and Grounded Captions》
+	
+	《[Spice: Semantic propositional image caption evaluation](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_24)》
+	
+	《Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning》
 
 #### Week 5
 
-​	《[Unsupervised Image Captioning](https://arxiv.org/abs/1811.10787)》
-
-​	《[Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning](http://www.aclweb.org/anthology/P18-1238)》
-
-​	《Show and Tell: A Neural Image Caption Generator》
+	《[Unsupervised Image Captioning](https://arxiv.org/abs/1811.10787)》
+	
+	《[Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning](http://www.aclweb.org/anthology/P18-1238)》
+	
+	《Show and Tell: A Neural Image Caption Generator》
 
 #### Week 6
 
-​	《BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding》
-
-​	《Corpus-Guided Sentence Generation of Natural Images》
-
-​	《Hierarchical Question-Image Co-Attention for Visual Question Answering》
+	《BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding》
+	
+	《Corpus-Guided Sentence Generation of Natural Images》
+	
+	《Hierarchical Question-Image Co-Attention for Visual Question Answering》
 
 #### Week 7
 
-​	《Baby Talk: Understanding and Generating Simple Image Descriptions》
-
-​	《Long-term Recurrent Convolutional Networks for Visual Recognition and Description》
-
-​	《[Auto-Encoding Scene Graphs for Image Captioning](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_Auto-Encoding_Scene_Graphs_for_Image_Captioning_CVPR_2019_paper.html)》
+	《Baby Talk: Understanding and Generating Simple Image Descriptions》
+	
+	《Long-term Recurrent Convolutional Networks for Visual Recognition and Description》
+	
+	《[Auto-Encoding Scene Graphs for Image Captioning](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_Auto-Encoding_Scene_Graphs_for_Image_Captioning_CVPR_2019_paper.html)》
 
 #### Week 8
 
-​	《Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations》
-
-​	《[Attention on Attention for Image Captioning](https://arxiv.org/abs/1908.06954)》
-
-​	《VL-BERT: Pre-training of Generic Visual-Linguistic Representations》
+	《Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations》
+	
+	《[Attention on Attention for Image Captioning](https://arxiv.org/abs/1908.06954)》
+	
+	《VL-BERT: Pre-training of Generic Visual-Linguistic Representations》
 
 #### Week 9
 
-​	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
+	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
 
-​	![发展历程](/Users/vhjf/Multimodal-Roadmap-for-freshman/发展历程.jpg)
 
-## 实验坑&工具&trick（About 2 months)
-
-#### Linux学习
-
-#### 服务器学习
-
-#### 工具总结
-   [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
-   
-   [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):针对google drive,可断点下载
-#### Pytorch
-
-#### Tensorflow
-
-#### 实验trick
-
-#### 实验遇到的坑
 
 ## 未来的方向(About 2 months)
 
-2020年：self-supervised learning+multimodal
+2020年： Unsupervised/semi-supervised+multimocal
 
-​				Unsupervised/semi-supervised+multimocal
+ 可控制的image caption/visual grounding
 
-​				可控制的image caption/visual grounding
+ visual reasoning（Scene graph+VQA)
 
-​				visual reasoning
+ visual grounding+传统CV/NLP任务
 
-​				symbolicism+multimodal
 
-​				visual grounding+传统CV/NLP任务
 
-​				（仅供参考)
+2021年：切忌只是对Transformer的魔改已经很难中论文了
+
+因果+Multimodal
+
+Symbolicism+multimodal
+
+New image Caption
+
+
+
+## 科研素质培养
+
+2020年年会总结8点：
+
+1.每两周详细读一篇文章&代码，学习从现有方法到新方法的改进思路
+
+2.课余时间学点数学基础知识&看不懂数学多的论文的时候找看得懂的人交流
+
+3.多写代码，多尝试做模块代码迁移而非调参
+
+4.做一个任务的时候要找到靠谱的codebase，以及确保这个领域有比较靠谱的前人工作（针对现阶段的能力）
+
+5.多写论文，尝试脱离谷歌翻译写paper
+
+6.坚持自己方向的一贯性，把思维集中在一个领域
+
+7.多做中间结果（可视化，辅助实验），而不是最终结果
+
+8.把问题定义更加清晰，提高自己思想深度
+
+
+
+## 如何做个好的Rebuttal？
+
 
 ​				
-
