@@ -1,34 +1,60 @@
 # Multimodal-Roadmap-for-freshman
 
- 本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。
+[toc]
 
- 前2个月精读20篇+实现，然后把深度学习基础过一遍，接下来2个月把领域新的东西泛读+精读过一遍然后做一些别人的idea（帮忙跑实验or洗数据or对方向进行调研 如果能在企业研究岗最好），最后两个月开始想一些独立的idea去面向会议进行投稿研究，到投出第一篇为止就算度过freshman阶段。
+本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。
 
- 做研究的主要思路分为：1.先收集研究领域最近2-3年文献进行阅读&复现靠谱好用的codebase 2.通过阅读把自己想做的问题定义好 3.根据问题去设计模块，先在该任务上达到SOTA性能（这是个漫长的过程，要不断尝试idea） 4.如果能跑到好的性能，说明是可以发表的工作，这时候要和人讨论，设计实验过程（如何论证你的问题），补充中间结果，这个阶段可以尝试写Intro+related work。 5.跑各种消融结果+可视化中间结果+参数分析，尝试刷更高性能，写论文改论文。6.一定要在会议截至之前2周把论文写出来，基本太赶的论文最后都是被拒的。
 
-#### 良好的科研习惯
 
-- 每天早上刷刷arxiv：第一时间看到各个领域最新的文章，获取最新的科研进展。
-- 论文分类整理：按照会议或方向，分类整理论文，方便高效查找论文。
-- 保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
+ 做研究的主要pipeline分为：
+
+1.先收集研究领域最近2-3年文献进行阅读&复现靠谱好用的codebase 
+
+2.通过阅读把自己想做的问题定义好,这个时候思考要有深度
+
+3.根据问题去设计模块，先在该任务上达到SOTA性能（这是个漫长的过程，要不断尝试idea）
+
+4.如果能跑到好的性能，说明是可以发表的工作，这时候要和人讨论，设计实验过程（如何论证你的问题），补充中间结果，这个阶段可以尝试写Intro+related work 
+
+5.跑各种消融结果+可视化中间结果+参数分析，尝试刷更高性能，写论文改论文。
+
+6.一定要在会议截至之前2周把论文写出来，基本太赶的论文最后都是被拒的。
+
+
+
+## 工具箱
 
 #### 领域可以follow人的工作
 
-吴琦老师，何晓冬老师，张含望老师，马林老师，段楠老师，Christopher D. Manning，Jiasen Lu，Paul Pu Liang，可以关注VALSE公众号，参加各种人工智能大会(智源大会，院士峰会等)
+偏CV：吴琦老师，何晓冬老师，张含望老师，马林老师，Jiasen Lu
+
+偏NLP：段楠老师，Christopher D. Manning，何晓冬老师，Paul Pu Liang
+
+
 
 #### 公众号
 
 - 机器之心
+
 - Paperweekly
+
 - 极市平台
+
 - AI科技评论
+
 - 新智元
+
 - 专知
+
 - Arxiv每日学术速递
+
 - 量子位
+
 - CVer
 
-#### 主要关注的顶会
+  
+
+#### 相关顶会
 
 CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
@@ -36,7 +62,15 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 适当阅读science，nature，pami和ijcv的文章，扩大视野
 
-时间线:
+
+
+**顶会时间线:**(具体时间看官方日期锁定)
+
+上半年：ACL->ICML->ICCV->NeurIPS->MM->EMNLP
+
+下半年：AAAI->ICLR->CVPR
+
+
 
 **ICML (CCF-A)**: International Conference on Machine Learning
 
@@ -110,9 +144,13 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 
 
-**ACMMM（CCF-A）**：
+**ACMMM（CCF-A）**:ACM International Conference on Multimedia
 
 截稿日期：每年4月上旬
+
+审稿周期: 约3个月(即7月下旬出结果)
+
+
 
 #### 常用网站&工具
 
@@ -129,6 +167,8 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - [Arxiv](http://www.arxiv-sanity.com/top)
 
 - [Paper with code](https://paperswithcode.com/)
+
+- [Google blog](https://ai.googleblog.com/)
 
 - [AIdeadline](https://aideadlin.es/?sub=)
 
@@ -152,7 +192,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 -  [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
 
--  [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):针对google drive,可断点下载
+-  [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):主要针对google drive,可断点下载
 
 - ML-visuals：用于PPT制作（里面有别人画好的东西）https://github.com/dair-ai/ml-visuals
 
@@ -170,18 +210,19 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 
 
-#### 思考训练
 
-- [视觉的目的是什么？](https://www.bilibili.com/video/BV14V411B7av?t=1)
 
-- 怎么去评估一篇论文能否被顶会接受？(见峰林大哥PPT)
-![avatar](Idea评判.png)
+## 入门pipeline
 
-  
+​	Step1：精读20篇+实现，然后把深度学习基础过一遍
 
-## 单步调试（每篇论文都有code）+精读(About 2 months)
+​	Step2：领域新的东西泛读+精读过一遍然后做一些别人的idea（帮忙跑实验or洗数据or对方向进行调研 如果能在企业研究岗最好）
 
-5-20篇论文代表基本理解了相关主题，或许对于进一步理解技术实现足够了。
+​	Step3:   开始想一些独立的idea去面向会议进行投稿研究，到投出第一篇为止就算度过freshman阶段。
+
+
+
+5-20篇论文代表基本理解了相关主题，或许对于进一步理解技术实现足够了。[吴恩达读论文的方法]
 
 50-100篇论文，你将会对这一领域有一个非常好的的理解。
 
@@ -195,7 +236,9 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 4、What other references do you want to follow?你还想关注哪些参考资料/文献？
 
-#### 深度学习基础
+
+
+#### Step 1:深度学习基础(2 months)
 
 - 《[动手学深度学习](http://zh.d2l.ai/)》
 - 《[机器学习&深度学习](https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4869695877227580366)》
@@ -208,7 +251,9 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - 斯坦福CS224n transform/generation部分
 - [Tutorial on Multimodal Machine Learning](https://www.cs.cmu.edu/~morency/MMML-Tutorial-ACL2017.pdf)
 
-#### Week 1
+#### Step 2:Week 1(2 mouths) 
+
+需要对论文进行单步调试，搞懂模型。
 
 	《Attention is all you need》
 	
@@ -271,10 +316,75 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 #### Week 9
 
 	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
-![avatar](发展历程.jpg)
+	![avatar](发展历程.jpg)
 
 
-## 未来的方向(About 2 months)
+
+#### Step 3:Idea(2 months)
+
+推荐的实习公司（2021版本）：腾讯AI lab，华为诺亚方舟，MSRA，商汤，京东AI，旷视
+
+不那么偏研究的地方：各大公司的工程岗，字节
+
+## 科研素质培养
+
+2020年年会总结8点：
+
+1. 每两周详细读一篇文章&代码，学习从现有方法到新方法的改进思路
+2. 课余时间学点数学基础知识&看不懂数学多的论文的时候找看得懂的人交流
+3. 多写代码，多尝试做模块代码迁移而非调参
+4. 做一个任务的时候要找到靠谱的codebase，以及确保这个领域有比较靠谱的前人工作（针对现阶段的能力）
+5. 多写论文，尝试脱离谷歌翻译写paper
+6. 坚持自己方向的一贯性，把思维集中在一个领域
+7. 多做中间结果（可视化，辅助实验），而不是最终结果
+8. 把问题定义更加清晰，提高自己思想深度
+
+
+
+- 每天早上刷刷arxiv：第一时间看到各个领域最新的文章，获取最新的科研进展。
+- 论文分类整理：按照会议或方向，分类整理论文，方便高效查找论文。
+- 保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
+
+
+
+## 追新论文&热点的渠道
+
+
+
+## 问题思考训练（评估问题的价值）
+
+- [视觉的目的是什么？](https://www.bilibili.com/video/BV14V411B7av?t=1)
+
+- 怎么去评估一篇论文能否被顶会接受？(见峰林大哥PPT)
+![avatar](Idea评判.png)
+
+- Reviewer Slides for CVPR 21 
+
+  
+
+## 神经网络模型绘画
+
+
+
+## 可视化
+
+
+
+## 组会PPT&学术汇报制作经验
+
+- 首先安利下自己的北大风格的Beamer主题：https://github.com/inFaaa/PKU-Beamer-Theme
+
+
+
+## Rebuttal
+
+​			
+
+## 靠谱的多模态任务codebase
+
+
+
+## 多模态热点方向（按年度）
 
 2020年： Unsupervised/semi-supervised+multimocal
 
@@ -283,6 +393,8 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
  visual reasoning（Scene graph+VQA)
 
  visual grounding+传统CV/NLP任务
+
+视觉语言预训练模型
 
 
 
@@ -294,31 +406,3 @@ Symbolicism+multimodal
 
 New image Caption
 
-
-
-## 科研素质培养
-
-2020年年会总结8点：
-
-1.每两周详细读一篇文章&代码，学习从现有方法到新方法的改进思路
-
-2.课余时间学点数学基础知识&看不懂数学多的论文的时候找看得懂的人交流
-
-3.多写代码，多尝试做模块代码迁移而非调参
-
-4.做一个任务的时候要找到靠谱的codebase，以及确保这个领域有比较靠谱的前人工作（针对现阶段的能力）
-
-5.多写论文，尝试脱离谷歌翻译写paper
-
-6.坚持自己方向的一贯性，把思维集中在一个领域
-
-7.多做中间结果（可视化，辅助实验），而不是最终结果
-
-8.把问题定义更加清晰，提高自己思想深度
-
-
-
-## 如何做个好的Rebuttal？
-
-
-​				
