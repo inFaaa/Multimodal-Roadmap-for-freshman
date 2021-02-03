@@ -316,7 +316,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 #### Week 9
 
 	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
-	![avatar](发展历程.jpg)
+![avatar](发展历程.jpg)
 
 
 
