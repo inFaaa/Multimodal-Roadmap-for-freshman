@@ -9,7 +9,7 @@
       - [代码训练](#----)
   * [入门pipeline](#--pipeline)
       - [Step 1:深度学习基础(2 months)](#step-1--------2-months-)
-      - [Step 2:Week 1(2 mouths)](#step-2-week-1-2-mouths-)
+      - [Step 2: Week 1(2 months)](#step-2--week-1-2-months-)
       - [Week 2](#week-2)
       - [Week 3](#week-3)
       - [Week 4](#week-4)
@@ -20,19 +20,49 @@
       - [Week 9](#week-9)
       - [Step 3:Idea(2 months)](#step-3-idea-2-months-)
   * [科研素质培养](#------)
-  * [追新论文&热点的渠道](#----------)
-  * [问题思考训练（评估问题的价值）](#---------------)
-  * [神经网络模型绘画](#--------)
-  * [可视化](#---)
-  * [组会PPT&学术汇报制作经验](#--ppt---------)
-  * [Rebuttal](#rebuttal)
-  * [靠谱的多模态任务codebase](#--------codebase)
-  * [多模态热点方向（按年度）](#------------)
+      - [追新论文&热点的渠道](#----------)
+      - [问题思考训练（评估问题的价值）](#---------------)
+      - [神经网络模型绘画](#--------)
+      - [可视化](#---)
+      - [组会PPT&学术汇报制作经验](#--ppt---------)
+      - [Rebuttal](#rebuttal)
+      - [靠谱的多模态任务codebase](#--------codebase)
+      - [提高GPU资源的使用率（多卡/单卡）](#--gpu-------------)
+      - [多模态热点方向（按年度）](#------------)
+- [Multimodal-Roadmap-for-freshman](#multimodal-roadmap-for-freshman-1)
+  * [工具箱](#----1)
+      - [领域可以follow人的工作](#----follow-----1)
+      - [公众号](#----1)
+      - [相关顶会](#-----1)
+      - [常用网站&工具](#--------1)
+      - [代码训练](#-----1)
+  * [入门pipeline](#--pipeline-1)
+      - [Step 1:深度学习基础(2 months)](#step-1--------2-months--1)
+      - [Step 2: Week 1(2 months)](#step-2--week-1-2-months--1)
+      - [Week 2](#week-2-1)
+      - [Week 3](#week-3-1)
+      - [Week 4](#week-4-1)
+      - [Week 5](#week-5-1)
+      - [Week 6](#week-6-1)
+      - [Week 7](#week-7-1)
+      - [Week 8](#week-8-1)
+      - [Week 9](#week-9-1)
+      - [Step 3:Idea(2 months)](#step-3-idea-2-months--1)
+  * [科研素质培养](#-------1)
+      - [追新论文&热点的渠道](#-----------1)
+      - [问题思考训练（评估问题的价值）](#----------------1)
+      - [神经网络模型绘画](#---------1)
+      - [可视化](#----1)
+      - [组会PPT&学术汇报制作经验](#--ppt----------1)
+      - [Rebuttal](#rebuttal-1)
+      - [靠谱的多模态任务codebase](#--------codebase-1)
+      - [提高GPU资源的使用率（多卡/单卡）](#--gpu--------------1)
+      - [多模态热点方向（按年度）](#-------------1)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。
+*本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。*
 
 
 
@@ -174,7 +204,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 
 
-**ACMMM（CCF-A）**:ACM International Conference on Multimedia
+**ACMMM(CCF-A)**: ACM International Conference on Multimedia
 
 截稿日期：每年4月上旬
 
@@ -220,13 +250,13 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 - [提高科研论文写作效率的小工具](https://zhuanlan.zhihu.com/p/34838403)
 
--  [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
+- [写公式神器](https://mathpix.com/):可截图自动转化成word&latex
 
--  [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):主要针对google drive,可断点下载
+- [下载数据集软件:Internet Download Manager](http://www.internetdownloadmanager.com):主要针对google drive,可断点下载
 
 - ML-visuals：用于PPT制作（里面有别人画好的东西）https://github.com/dair-ai/ml-visuals
 
-- 服务器-电脑传输数据：Windows：Winscp, MAC:Transmit
+- 服务器-电脑传输数据：Windows: Winscp, MAC: Transmit
 
   
 
@@ -281,7 +311,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 - 斯坦福CS224n transform/generation部分
 - [Tutorial on Multimodal Machine Learning](https://www.cs.cmu.edu/~morency/MMML-Tutorial-ACL2017.pdf)
 
-#### Step 2:Week 1(2 mouths) 
+#### Step 2: Week 1(2 months) 
 
 需要对论文进行单步调试，搞懂模型。
 
@@ -346,15 +376,16 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 #### Week 9
 
 	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
-![avatar](发展历程.jpg)
 
 
 
 #### Step 3:Idea(2 months)
 
-推荐的实习公司（2021版本）：腾讯AI lab，华为诺亚方舟，MSRA，商汤，京东AI，旷视
+推荐的实习公司（2021版本）：腾讯AI lab，华为诺亚方舟，MSRA，商汤，京东AI，旷视，达摩院
 
-不那么偏研究的地方：各大公司的工程岗，字节
+不那么偏研究的地方：各大公司的工程岗，字节头条，阿里，微软
+
+
 
 ## 科研素质培养
 
@@ -377,44 +408,51 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 
 
-## 追新论文&热点的渠道
+#### 追新论文&热点的渠道
+
+一手消息：会议
+
+二手消息：Arxiv
+
+三手消息：知乎，公众号
 
 
 
-## 问题思考训练（评估问题的价值）
+#### 问题思考训练（评估问题的价值）
 
 - [视觉的目的是什么？](https://www.bilibili.com/video/BV14V411B7av?t=1)
 
-- 怎么去评估一篇论文能否被顶会接受？(见峰林大哥PPT)
-![avatar](Idea评判.png)
+- 怎么去评估一篇论文能否被顶会接受？[做研究与写论文by fenglinliu]
 
 - Reviewer Slides for CVPR 21 
 
   
 
-## 神经网络模型绘画
+#### 神经网络模型绘画
 
 
 
-## 可视化
+#### 可视化
 
 
 
-## 组会PPT&学术汇报制作经验
+#### 组会PPT&学术汇报制作经验
 
 - 首先安利下自己的北大风格的Beamer主题：https://github.com/inFaaa/PKU-Beamer-Theme
 
 
 
-## Rebuttal
+#### Rebuttal
 
 ​			
 
-## 靠谱的多模态任务codebase
+#### 靠谱的多模态任务codebase
+
+#### 提高GPU资源的使用率（多卡/单卡）
 
 
 
-## 多模态热点方向（按年度）
+#### 多模态热点方向（按年度）
 
 2020年： Unsupervised/semi-supervised+multimocal
 
