@@ -29,37 +29,10 @@
       - [靠谱的多模态任务codebase](#--------codebase)
       - [提高GPU资源的使用率（多卡/单卡）](#--gpu-------------)
       - [多模态热点方向（按年度）](#------------)
-- [Multimodal-Roadmap-for-freshman](#multimodal-roadmap-for-freshman-1)
-  * [工具箱](#----1)
-      - [领域可以follow人的工作](#----follow-----1)
-      - [公众号](#----1)
-      - [相关顶会](#-----1)
-      - [常用网站&工具](#--------1)
-      - [代码训练](#-----1)
-  * [入门pipeline](#--pipeline-1)
-      - [Step 1:深度学习基础(2 months)](#step-1--------2-months--1)
-      - [Step 2: Week 1(2 months)](#step-2--week-1-2-months--1)
-      - [Week 2](#week-2-1)
-      - [Week 3](#week-3-1)
-      - [Week 4](#week-4-1)
-      - [Week 5](#week-5-1)
-      - [Week 6](#week-6-1)
-      - [Week 7](#week-7-1)
-      - [Week 8](#week-8-1)
-      - [Week 9](#week-9-1)
-      - [Step 3:Idea(2 months)](#step-3-idea-2-months--1)
-  * [科研素质培养](#-------1)
-      - [追新论文&热点的渠道](#-----------1)
-      - [问题思考训练（评估问题的价值）](#----------------1)
-      - [神经网络模型绘画](#---------1)
-      - [可视化](#----1)
-      - [组会PPT&学术汇报制作经验](#--ppt----------1)
-      - [Rebuttal](#rebuttal-1)
-      - [靠谱的多模态任务codebase](#--------codebase-1)
-      - [提高GPU资源的使用率（多卡/单卡）](#--gpu--------------1)
-      - [多模态热点方向（按年度）](#-------------1)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 
 *本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。*
