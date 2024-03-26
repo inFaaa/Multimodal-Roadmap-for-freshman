@@ -1,6 +1,6 @@
 # Multimodal-Roadmap-for-Freshman
 
-Author: Jinfa Huang, Hao Li, Peng Jin, Fenglin Liu.
+Authors: Jinfa Huang, Hao Li, Peng Jin, Fenglin Liu.
 
 Made in 2021.
 
