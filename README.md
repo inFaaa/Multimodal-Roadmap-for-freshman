@@ -4,9 +4,35 @@ Author: Jinfa Huang, Hao Li, Peng Jin, Fenglin Liu.
 
 Made in 2021.
 
-[TOC]
+- [Multimodal-Roadmap-for-freshman](#multimodal-roadmap-for-freshman)
+	- [工具箱](#工具箱)
+			- [领域可以follow人的工作](#领域可以follow人的工作)
+			- [公众号](#公众号)
+			- [相关顶会](#相关顶会)
+			- [常用网站\&工具](#常用网站工具)
+			- [代码训练](#代码训练)
+	- [入门pipeline](#入门pipeline)
+			- [Step 1:深度学习基础(2 months)](#step-1深度学习基础2-months)
+			- [Step 2: Week 1(2 months)](#step-2-week-12-months)
+			- [Week 2](#week-2)
+			- [Week 3](#week-3)
+			- [Week 4](#week-4)
+			- [Week 5](#week-5)
+			- [Week 6](#week-6)
+			- [Week 7](#week-7)
+			- [Week 8](#week-8)
+			- [Week 9](#week-9)
+			- [Step 3:Idea(2 months)](#step-3idea2-months)
+	- [科研素质培养](#科研素质培养)
+			- [追新论文\&热点的渠道](#追新论文热点的渠道)
+			- [问题思考训练（评估问题的价值）](#问题思考训练评估问题的价值)
+			- [神经网络模型绘画 \& 可视化](#神经网络模型绘画--可视化)
+			- [组会PPT \& 学术汇报制作经验](#组会ppt--学术汇报制作经验)
+			- [Rebuttal](#rebuttal)
+			- [提高GPU资源的使用率（多卡/单卡）](#提高gpu资源的使用率多卡单卡)
+			- [Blog](#blog)
 
-*本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。*
+**本项目用于Multimodal领域新手的学习路线，包括该领域的经典论文，项目及课程。旨在希望学习者在一定的时间内达到对这个领域有较为深刻的认知，能够自己进行的独立研究。**
 
  做研究的主要pipeline分为：
 
@@ -28,7 +54,7 @@ Made in 2021.
 
 #### 领域可以follow人的工作
 
-偏CV：吴琦老师，何晓冬老师，张含望老师，马林老师，Jiasen Lu
+偏CV：吴琦老师，何晓冬老师，张含望老师，马林老师，Jiasen Lu, Jiebo Luo
 
 偏NLP：段楠老师， Christopher D. Manning，何晓冬老师， Paul Pu Liang
 
