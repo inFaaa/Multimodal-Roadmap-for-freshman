@@ -353,7 +353,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 #### Step 3:Idea(2 months)
 
-建议找家Research公司实习。
+建议找家公司/科研机构实习，找具体的人带带。
 
 
 ## 科研素质培养
