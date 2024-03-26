@@ -28,7 +28,6 @@
       - [Rebuttal](#rebuttal)
       - [靠谱的多模态任务codebase](#--------codebase)
       - [提高GPU资源的使用率（多卡/单卡）](#--gpu-------------)
-      - [多模态热点方向（按年度）](#------------)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -61,7 +60,7 @@
 
 偏CV：吴琦老师，何晓冬老师，张含望老师，马林老师，Jiasen Lu
 
-偏NLP：段楠老师，Christopher D. Manning，何晓冬老师，Paul Pu Liang
+偏NLP：段楠老师， Christopher D. Manning，何晓冬老师， Paul Pu Liang
 
 
 
@@ -354,10 +353,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 #### Step 3:Idea(2 months)
 
-推荐的实习公司（2021版本）：腾讯AI lab，华为诺亚方舟，MSRA，商汤，京东AI，旷视，达摩院
-
-不那么偏研究的地方：各大公司的工程岗，字节头条，阿里，微软
-
+建议找家Research公司实习。
 
 
 ## 科研素质培养
@@ -417,33 +413,9 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 #### Rebuttal
 
-​			
-
-#### 靠谱的多模态任务codebase
 
 #### 提高GPU资源的使用率（多卡/单卡）
 
 
 
-#### 多模态热点方向（按年度）
-
-2020年： Unsupervised/semi-supervised+multimocal
-
- 可控制的image caption/visual grounding
-
- visual reasoning（Scene graph+VQA)
-
- visual grounding+传统CV/NLP任务
-
-视觉语言预训练模型
-
-
-
-2021年：切忌只是对Transformer的魔改已经很难中论文了
-
-因果+Multimodal
-
-Symbolicism+multimodal
-
-New image Caption
 
