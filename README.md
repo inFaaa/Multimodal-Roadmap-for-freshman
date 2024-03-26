@@ -1,5 +1,9 @@
 # Multimodal-Roadmap-for-freshman
 
+Author: Jinfa Huang, Hao Li, Peng Jin, Fenglin Liu.
+
+Made in 2021.
+
 - [Multimodal-Roadmap-for-freshman](#multimodal-roadmap-for-freshman)
   * [工具箱](#---)
       - [领域可以follow人的工作](#----follow----)
@@ -349,15 +353,12 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 	泛读当年CVPR所有论文(尤其是oral），可以思考其他领域和multimodal的关联，对整个AI发展有个趋势的认知。然后做一份阅读报告作为第一阶段的总结。
 
-
-
 #### Step 3:Idea(2 months)
 
 建议找家公司/科研机构实习，找具体的人带带。
 
 
 ## 科研素质培养
-
 
 1. 每两周详细读一篇文章&代码，学习从现有方法到新方法的改进思路
 2. 课余时间学点数学基础知识&看不懂数学多的论文的时候找看得懂的人交流
@@ -370,8 +371,6 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 9. 每天早上刷刷arxiv：第一时间看到各个领域最新的文章，获取最新的科研进展。
 10. 论文分类整理：按照会议或方向，分类整理论文，方便高效查找论文。
 11. 保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
-
-
 
 #### 追新论文&热点的渠道
 
@@ -391,21 +390,11 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 - Reviewer Slides for CVPR 21 
 
-  
+#### 神经网络模型绘画 & 可视化
 
-#### 神经网络模型绘画
-
-
-
-#### 可视化
-
-
-
-#### 组会PPT&学术汇报制作经验
+#### 组会PPT & 学术汇报制作经验
 
 - 首先安利下自己的北大风格的Beamer主题：https://github.com/inFaaa/PKU-Beamer-Theme
-
-
 
 #### Rebuttal
 - https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
@@ -415,5 +404,5 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 #### Blog
 
 - 超级Nice的北大李磊大佬，每一篇Blog都很值得读：https://tobiaslee.top/
-
-
+- OpenAI大佬的Blog: https://lilianweng.github.io/
+- 苏剑林大佬的Blog: https://spaces.ac.cn/
