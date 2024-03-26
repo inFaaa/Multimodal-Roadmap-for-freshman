@@ -264,9 +264,9 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 2、If a new approach/technique/method was introduced in a paper, what are the key elements of the newly proposed approach?如果文中引入了一种新方法/技术，那么这一新提出的方法/技术的关键要素是什么？
 
-3、What content within the paper is useful to you?论文中，有哪些内容对你有用。
+3、What content within the paper is useful to you? 论文中，有哪些内容对你有用。
 
-4、What other references do you want to follow?你还想关注哪些参考资料/文献？
+4、What other references do you want to follow? 你还想关注哪些参考资料/文献？
 
 
 
@@ -274,8 +274,8 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 - 《[动手学深度学习](http://zh.d2l.ai/)》
 - 《[机器学习&深度学习](https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4869695877227580366)》
-- 西瓜书《机器学习》
-- 花书《深度学习》
+-  西瓜书《机器学习》
+-  花书《深度学习》
 - 《统计机器学习》
 - 《The book of why》探讨因果
 - 林轩田-《机器学习基石》
@@ -369,7 +369,7 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 8. 把问题定义更加清晰，提高自己思想深度
 9. 每天早上刷刷arxiv：第一时间看到各个领域最新的文章，获取最新的科研进展。
 10. 论文分类整理：按照会议或方向，分类整理论文，方便高效查找论文。
-11.保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
+11. 保证每日科研效率：确保大块的连续的科研时间，如早上或晚上，无人打扰。
 
 
 
@@ -408,10 +408,12 @@ CVPR，ICCV，ECCV，NIPS，ICLR，ACL，EMNLP
 
 
 #### Rebuttal
-
+- https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
 
 #### 提高GPU资源的使用率（多卡/单卡）
 
+#### Blog
 
+- 超级Nice的北大李磊大佬，每一篇Blog都很值得读：https://tobiaslee.top/
 
 
