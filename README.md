@@ -1,4 +1,4 @@
-# Multimodal-Roadmap-for-freshman
+# Multimodal-Roadmap-for-Freshman
 
 Author: Jinfa Huang, Hao Li, Peng Jin, Fenglin Liu.
 
